@@ -1,0 +1,17 @@
+{
+  "_expect_fail": ["hit_area", "service_a_index_text", "service_b_no_autoplay"],
+  "variants": ["State=Desktop", "State=Mobile", "State=Previous/Next", "State=Current Index", "State=Focus"],
+  "interactive": [
+    { "name": "btn-previous", "width": 40, "height": 40 },
+    { "name": "btn-next", "width": 40, "height": 40 }
+  ],
+  "focus": [{ "variant": "State=Focus", "node": "btn-next", "strokeWeight": 2, "strokeColor": "#2563EB", "strokeVar": null }],
+  "iconButtons": [
+    { "name": "btn-previous", "label": "previous" },
+    { "name": "btn-next", "label": "next" }
+  ],
+  "unbound": [],
+  "texts": ["어떤 정보가 어려울까요?"],
+  "playState": {},
+  "afterTimeout": 1
+}

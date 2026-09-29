@@ -1,0 +1,16 @@
+{
+  "variants": ["State=Desktop", "State=Mobile", "State=Previous/Next", "State=Current Index", "State=Focus"],
+  "interactive": [
+    { "name": "btn-previous", "width": 44, "height": 44 },
+    { "name": "btn-next", "width": 44, "height": 44 }
+  ],
+  "focus": [{ "variant": "State=Focus", "node": "btn-next", "strokeWeight": 2, "strokeColor": "#2563EB", "strokeVar": null }],
+  "iconButtons": [
+    { "name": "btn-previous", "label": "previous" },
+    { "name": "btn-next", "label": "next" }
+  ],
+  "unbound": [],
+  "texts": ["어떤 정보가 어려울까요?", "1 / 5"],
+  "playState": {},
+  "afterTimeout": 0
+}

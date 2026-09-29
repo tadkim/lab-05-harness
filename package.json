@@ -1,0 +1,14 @@
+{
+  "name": "lab-05-harness",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "judge": "node scripts/judge.mjs",
+    "approve": "node scripts/approve.mjs",
+    "scope": "node scripts/check-scope.mjs",
+    "test": "node scripts/test.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.5.0"
+  }
+}

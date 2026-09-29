@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '' -e 's/| p1-research.md |/| research\\\\/p1-research.md |/' -e 's/| p2-options.md |/| design\\\\/p2-options.md |/' -e 's/| p3-figma.json |/| design\\\\/p3-figma.json |/' -e 's/| p4-gate.json |/| gate\\\\/p4-gate.json |/' -e 's/| p5-handoff.md |/| handoff\\\\/p5-handoff.md |/' inputs/pipeline.md)",
+      "Bash(ruby -ryaml -e 'd=YAML.load_file\\(\"rules.yaml\"\\);puts d[\"phases\"].values.inspect, d[\"agents\"].keys.inspect')",
+      "Bash(mkdir -p /Users/temm/Documents/Temm/Labs/huddlingClub/labs/lab-05-harness/.claude/agents)",
+      "mcp__claude_ai_Figma__get_metadata",
+      "Bash(npm install *)",
+      "Bash(npm test *)",
+      "Bash(git check-ignore *)",
+      "mcp__claude_ai_Figma__use_figma",
+      "Bash(node -e 'const j=require\\(\"./tokens/figma-variables.json\"\\);process.stdout.write\\(JSON.stringify\\(j.collections\\)\\)')"
+    ],
+    "additionalDirectories": [
+      "/Users/temm/Documents/Temm/Labs/huddlingClub/labs/lab-05-harness/.claude"
+    ]
+  }
+}

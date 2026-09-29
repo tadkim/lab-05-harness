@@ -1,0 +1,13 @@
+{
+  "variants": ["State=Idle", "State=Playing", "State=Paused", "State=Play/Pause Button", "State=Focus"],
+  "interactive": [{ "name": "btn-play", "width": 44, "height": 44 }],
+  "focus": [{ "variant": "State=Focus", "node": "btn-play", "strokeWeight": 2, "strokeColor": "#2563EB", "strokeVar": null }],
+  "iconButtons": [{ "name": "btn-play", "label": "play" }],
+  "unbound": [],
+  "texts": [],
+  "playState": {
+    "Playing": { "icon": "icon-pause", "label": "pause" },
+    "Paused": { "icon": "icon-play", "label": "play" }
+  },
+  "afterTimeout": 0
+}
